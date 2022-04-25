@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <style>
+        .places {
+            height: 5.5cm;
+            width: 7.5cm;
+            font-size: 1.2em;
+            color: rgb(249, 249, 249);
+        }
+        
+        .destinationlist {
+            display: none;
+            width: 50%;
+            margin-left: 30%;
+        }
+        
+        .places {
+            float: left;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>YOUR DEstinations</h1>
+    <div class="desBtns d-flex flex-row flex-wrap justify-content-center">
+        <div class="h4 text-warning btn btn-primary mx-5 Region" onclick="showNorth()">North </div>
+        <div class="h4 text-warning btn btn-primary mx-5 Region" onclick="showEast()">East</div>
+        <div class="h4 text-warning btn btn-primary mx-5 Region" onclick="showWest()">West</div>
+        <div class="h4 text-warning btn btn-primary mx-5 Region" onclick="showNE()"> North east</div>
+        <div class="h4 text-warning btn btn-primary mx-5 Region" onclick="showSouth()">South</div>
+    </div>
+
+    <div class="destinationlist row " id="north">
+        <div class="places text-center m-2 ">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+        <div class="places text-center m-2">1</div>
+    </div>
+    <div class="destinationlist row" id="east">
+        <div class="places text-center m-2">2</div>
+        <div class="places text-center m-2">2</div>
+        <div class="places text-center m-2">2</div>
+        <div class="places text-center m-2">2</div>
+        <div class="places text-center m-2">2</div>
+    </div>
+    <div class="destinationlist row" id="west">
+        <div class="places text-center m-2">3</div>
+        <div class="places text-center m-2">3</div>
+        <div class="places text-center m-2">3</div>
+        <div class="places text-center m-2">3</div>
+        <div class="places text-center m-2">3</div>
+        <div class="places text-center m-2">3</div>
+        <div class="places text-center m-2">3</div>
+    </div>
+    <div class="destinationlist row" id="northEast">
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+        <div class="places text-center m-2">4</div>
+    </div>
+    <div class="destinationlist row" id="south">
+        <div class="places text-center m-2">5</div>
+        <div class="places text-center m-2">5</div>
+        <div class="places text-center m-2">5</div>
+        <div class="places text-center m-2">5</div>
+        <div class="places text-center m-2">5</div>
+        <div class="places text-center m-2">5</div>
+        <div class="places text-center m-2">5</div>
+    </div>
+
+
+
+
+
+</body>
+<script src="des.js"></script>
+
+</html>

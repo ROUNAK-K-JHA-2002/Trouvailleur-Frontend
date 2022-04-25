@@ -1,0 +1,151 @@
+{
+    "North_India": [{
+            "place": "Delhi",
+            "imgsrc": "Destinations/Delhi.jpeg"
+        },
+        {
+            "place": "Haryana",
+            "imgsrc": "Destinations/Haryana.jpeg"
+        },
+        {
+            "place": "Himachal Pradesh",
+            "imgsrc": "Destinations/Himachal Pradesh.webp"
+        },
+        {
+            "place": "Jammu & Kashmir",
+            "imgsrc": "Destinations/JammuKashmir.jpeg"
+        },
+        {
+            "place": "Punjab",
+            "imgsrc": "Destinations/Punjab.jpeg"
+        },
+        {
+            "place": "Rajasthan",
+            "imgsrc": "Destinations/rajasthan.jpeg"
+        },
+        {
+            "place": "Uttarakhand",
+            "imgsrc": "Destinations/Uttarakhand.jpeg"
+        },
+        {
+            "place": "Uttar Pradesh",
+            "imgsrc": "Destinations/Uttar Pradesh.jpeg"
+        },
+        {
+            "place": "UT:Chandigarh",
+            "imgsrc": "Destinations/Chandigarh.webp"
+        }
+    ],
+    "East_India": [{
+            "place": "Bihar",
+            "imgsrc": "Destinations/Bihar.jpeg"
+        },
+        {
+            "place": "Jharkhand",
+            "imgsrc": "Destinations/Jharkhand.jpeg"
+        },
+        {
+            "place": "Odisha",
+            "imgsrc": "Destinations/Odisha.jpeg.crdownload.jpg"
+        },
+        {
+            "place": "West Bengal",
+            "imgsrc": "Destinations/WEST-BENGAL.jpeg"
+        },
+        {
+            "place": "UT:Andaman & Nicobar Islands",
+            "imgsrc": "Destinations/Andaman and Nicobar Islands.jpeg"
+        }
+    ],
+    "West_India": [{
+            "place": "Chattisgarh",
+            "imgsrc": "Destinations/Chattisgarh.jpeg"
+        },
+        {
+            "place": "Goa",
+            "imgsrc": "Destinations/goa.jpeg"
+        },
+        {
+            "place": "Gujarat",
+            "imgsrc": "Destinations/gujarat.jpeg"
+        },
+        {
+            "place": "Madhya Pradesh",
+            "imgsrc": "Destinations/Madhya Pradesh.jpeg"
+        },
+        {
+            "place": "Maharashtra",
+            "imgsrc": "Destinations/Maharashtra.jpeg"
+        },
+        {
+            "place": "UT:Dadra & Nagar Haveli",
+            "imgsrc": "Destinations/Dadra and Nagar Haveli.jpeg"
+        },
+        {
+            "place": "UT:Daman & Diu",
+            "imgsrc": "Destinations/Daman and Diu.jpeg"
+        }
+    ],
+    "NorthEast_India": [{
+            "place": "Arunachal Pradesh",
+            "imgsrc": "Destinations/Arunachal Pradesh.webp"
+        },
+        {
+            "place": "Assam",
+            "imgsrc": "Destinations/Assam.webp"
+        },
+        {
+            "place": "Manipur",
+            "imgsrc": "Destinations/Manipur.jpeg"
+        },
+        {
+            "place": "Meghalaya",
+            "imgsrc": "Destinations/Meghalaya.jpeg"
+        },
+        {
+            "place": "Mizoram",
+            "imgsrc": "Destinations/MIZORAM.jpeg"
+        },
+        {
+            "place": "Nagaland",
+            "imgsrc": "Destinations/Nagaland.jpeg"
+        },
+        {
+            "place": "Sikkim",
+            "imgsrc": "Destinations/Sikkim.jpeg"
+        },
+        {
+            "place": "Tripura",
+            "imgsrc": "Destinations/Tripura.jpeg"
+        }
+    ],
+    "South_India": [{
+            "place": "Andhra Pradesh",
+            "imgsrc": "Destinations/Andhra Pradesh.jpeg"
+        },
+        {
+            "place": "Karnataka",
+            "imgsrc": "Destinations/Karnataka.jpeg"
+        },
+        {
+            "place": "Kerala",
+            "imgsrc": "Destinations/Kerala.jpeg"
+        },
+        {
+            "place": "Tamil Nadu",
+            "imgsrc": "Destinations/tamil nadu.jpeg"
+        },
+        {
+            "place": "Telangana",
+            "imgsrc": "Destinations/Telangana.jpeg"
+        },
+        {
+            "place": "UT:Lakshwadeep",
+            "imgsrc": "Destinations/Lakshwadeep.jpeg"
+        },
+        {
+            "place": "UT:Puducherry",
+            "imgsrc": "Destinations/Puducherry.jpeg"
+        }
+    ]
+}

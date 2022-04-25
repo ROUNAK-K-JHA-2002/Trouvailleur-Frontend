@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* HEADER / LANDING SECTION  */
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(255, 15, 235, 0.294), rgba(0, 0, 0, 0)), url('bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar div {
+    display: inline-block;
+}
+
+.navlinks a {
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid orange;
+    font-size: 1em;
+    color: white;
+}
+
+.navlinks a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.userbtn a {
+    font-size: 1em;
+}
+
+.logo img {
+    height: 3cm;
+}
+
+#side_nav {
+    height: 100vh;
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.836);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transition: all 0.5s;
+}
+
+#side_nav a {
+    text-decoration: none;
+    color: rgb(255, 189, 65);
+    transition: all 0.2s;
+}
+
+#side_nav a:hover {
+    color: rgb(255, 251, 0);
+    background-color: rgb(126, 128, 127);
+}
+
+.howitworks div {
+    display: inline-block;
+    width: 15%;
+}
+
+.smallContent {
+    width: 75%;
+}
+
+.howitworks div span {
+    width: 100%;
+}
+
+.howitworks div span img {
+    height: 5cm;
+    width: 100%;
+}
+
+.safetravel div {
+    height: 10cm;
+    width: 10cm;
+}
+
+.places {
+    height: 5.5cm;
+    width: 7.5cm;
+    font-size: 1.9em;
+    color: #ffc107;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 0.2s;
+    box-shadow: 5px 5px 5px black;
+}
+
+.places:hover {
+    box-shadow: 5px 5px 15px black;
+    transform: scale(1.1);
+}
+
+.destinationlist {
+    display: none;
+    width: 70%;
+    margin-left: 15%;
+    /* border: 2px solid red; */
+    height: max-content;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.travel {
+    height: max-content;
+    /* background-image: linear-gradient(to bottom, rgba(43, 29, 43, 0.294), rgba(96, 126, 94, 0.13)), url('travel.jpeg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    transition: all 0.2s;
+}
+
+
+/* .desBtns {
+    border: 2px solid red;
+} */
+
+.Region {
+    font-size: 1.7em;
+    border-bottom: 2px solid rgb(255, 183, 0);
+    color: #ffc107;
+}
+
+@media screen and (max-width: 1250px) {
+    .logo img {
+        height: 1.5cm;
+    }
+    .navbar {
+        display: none;
+    }
+    .howitworks div {
+        width: 80%;
+    }
+    .userbtn a {
+        font-size: 0.8em;
+    }
+    .places {
+        height: 4.5cm;
+        width: 6cm;
+    }
+    .destinationlist {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+    .howitworks div {
+        width: 80%;
+    }
+    .places {
+        height: 3.5cm;
+        width: 5cm;
+    }
+    .destinationlist {
+        width: 90%;
+    }
+}

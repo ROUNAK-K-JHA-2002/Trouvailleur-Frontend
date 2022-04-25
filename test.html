@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <!-- SIDENAV -->
+    <div class="d-flex flex-column d-lg-none pt-5" id="side_nav">
+        <a href="javascript:void(0)" class="display-6 position-absolute " onclick="close_sidenav()" style="right:5%;top: 1%;width: fit-content;">
+            <i class="fa fa-close pl-5"></i></a>
+        <a class="px-3 py-2 mr-4 mt-2" href="index.html">HOME</a>
+        <a class="px-3 py-2 mr-4 mt-2" href="productsdetails.html">PRODUCT</a>
+        <a class="px-3 py-2 mr-4 mt-2" href="">ACCOUNT</a>
+        <a class="px-3 py-2 mr-4 mt-2" href="contact.html">CONTACT</a>
+        <a class="px-3 py-2 mr-4 mt-2" href=""> <i class="fa fa-cart-plus" aria-hidden="true"></i> CART</a>
+    </div>
+    <!-- LANDGING PAGE -->
+    <div class="container-fluid header">
+
+        <!-- NAVBAR FOR LARGE SCREEN -->
+        <div class="d-lg-none" id="nav_bar_small" style="margin: 0 -4%;">
+            <!-- <a href="" class="mx-4"> <img src="logo.jpg" style="height: 4.5em;"></a> -->
+            <a href="javascript:void(0)" class="h1 text-white" onclick="open_sidenav()"><i class="fa fa-bars"
+                    aria-hidden="true" style="margin: 10% 0% 0% 5%;;font-size: larger;"></i></a>
+            <a href="" class="mx-2"> <img src="logo1.png" style="height: 1.5cm;float: right; margin-top: 8%;"></a>
+        </div>
+
+
+
+        <!-- NAVIGATION BAR -->
+        <!-- NAVBAR -->
+        <div class="navbar d-md-flex flex-row flex-wrap justify-space-around px-3" id="nav_bar">
+            <div class="logo">
+                <img src="logo1.png">
+            </div>
+            <div class=" navlinks ">
+                <span class="mx-1"><a class="text-white p-2" href="#HTW">How it works</a></span>
+                <span class="mx-1"><a class="text-white p-2" href=" ">Destinations</a></span>
+                <span class="mx-1"><a class="text-white p-2" href=" ">Pricing</a></span>
+                <span class="mx-1"><a class="text-white p-2" href=" ">Sample GuideBook</a></span>
+                <span class="mx-1"><a class="text-white p-2" href=" ">Our Metaverse World</a></span>
+            </div>
+            <div class="userbtn">
+                <a href=" " class="btn btn-outline-warning">Login</a>
+                <a href=" " class="btn btn-warning ">FIND A LOCAL</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SECTION 1 -->
+    <a name="HTW"></a>
+    <div class="container-fluid">
+        <p class="text-center py-5" style="font-family: 'Poppins', sans-serif; font-size: 3em;"> HOW IT WORKS </p>
+
+        <div class="d-flex flex-column flex-lg-row flex-wrap justify-content-center howitworks my-5">
+            <div class="mx-1 p-3 d-block">
+                <span><img src="vector1.png"></span>
+                <span class="smallContent text-center h4 float-right"> Select Your Destination </span>
+            </div>
+            <div class="mx-1 p-3">
+                <span><img src="prefrences.jpeg"></span>
+                <span class="smallContent text-center h4 float-right"> Give Your Preferences</span>
+            </div>
+            <div class="mx-1 p-3">
+                <span><img src="connecting with locals.webp"></span>
+                <span class="smallContent text-center h4 float-right"> Connect with a local Guide virtually </span>
+            </div>
+            <div class="mx-1 p-3">
+                <span><img src="guidebook.jpeg"></span>
+                <span class="smallContent text-center h4 float-right"> Get a personally curated guidebook that satisfies
+                    your travel
+                    goals
+                </span>
+            </div>
+            <div class="mx-1 p-3">
+                <span><img src="metaverse image.jpeg"></span>
+                <span class="smallContent text-center h4 float-right"> Get a digital preview on the metaverse for things
+                    to
+                    come</span>
+            </div>
+            <div class="mx-1 p-3">
+                <span><img src="people with guides1.jpeg"></span>
+                <span class="smallContent text-center h4 float-right"> Enjoy your trip with the guide in
+                    person/virtually</span>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- SECTION 2 -->
+    <div class="section3 text-center my-5">
+        <p class="py-5" style="font-family: 'Poppins', sans-serif; font-size: 3em;">SAFE TRAVEL PLANNING MADE EASY.</p>
+        <p class="d-inline-block  ml-5 px-5" style="font-size: 1.3em; width: 80%;margin-top: -2%;">Shifting travel restrictions, finding COVID testing centers, abnormal business hours, and local rules all make travel logistics trickier than normal. Here's why working with a local is a no-brainer.</p>
+        <div class="d-flex flex-column flex-lg-row flex-wrap justify-content-center safetravel mt-3">
+            <div> <img src="mobile.png" style="height: 100%;"></div>
+            <div>
+                <ul class="pt-3 pl-3 text-left mb-4" type="none">
+                    <li class="py-2 px-3 h6"><i class="fa fa-check text-success" aria-hidden="true"></i> Up-to-date info
+                    </li>
+                    <li class="py-2 px-3 h6"><i class="fa fa-check text-success" aria-hidden="true"></i> COVID testing assistance
+                    </li>
+                    <li class="py-2 px-3 h6"><i class="fa fa-check text-success" aria-hidden="true"></i> Local tips to avoid crowds</li>
+                    <li class="py-2 px-3 h6"><i class="fa fa-check text-success" aria-hidden="true"></i> Complete personalization
+                    </li>
+                    <li class="py-2 px-3 h6"><i class="fa fa-check text-success" aria-hidden="true"></i> Flexible cancellation policy
+                    </li>
+                    <li class="py-2 px-3 h6"><i class="fa fa-check text-success" aria-hidden="true"></i> Peace of mind
+                    </li>
+                </ul>
+                <a href="" class="btn btn-warning px-4 py-2 mt-2 " style="border-radius:50px;font-size: 1.2em;">Find a
+                    Local</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SECTION 3 -->
+    <p class="py-5 text-center" style="font-family: 'Poppins', sans-serif; font-size: 3em;">CHOOSE YOUR DESTINATION.
+    </p>
+    <div class="my-4 py-4 travel">
+        <div class="desBtns d-flex flex-row flex-wrap justify-content-center ">
+            <div class=" btn px-5 Region" id="1" onclick="show(this.id)">North </div>
+            <div class=" btn px-5 Region" id="2" onclick="show(this.id)">East</div>
+            <div class=" btn px-5 Region" id="3" onclick="show(this.id)">West</div>
+            <div class=" btn  px-5 Region" id="4" onclick="show(this.id)"> North east</div>
+            <div class=" btn  px-5 Region" id="5" onclick="show(this.id)">South</div>
+        </div>
+
+        <div class="destinationlist py-3 row " id="north">
+            <div class="places text-center mx-4 my-3 pt-2 ">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+            <div class="places text-center mx-4 my-3 pt-2">1</div>
+        </div>
+        <div class="destinationlist py-3 row" id="east">
+            <div class="places text-center mx-4 my-3 pt-2">2</div>
+            <div class="places text-center mx-4 my-3 pt-2">2</div>
+            <div class="places text-center mx-4 my-3 pt-2">2</div>
+            <div class="places text-center mx-4 my-3 pt-2">2</div>
+            <div class="places text-center mx-4 my-3 pt-2">2</div>
+        </div>
+        <div class="destinationlist py-3 row" id="west">
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+            <div class="places text-center mx-4 my-3 pt-2">3</div>
+        </div>
+        <div class="destinationlist py-3 row" id="northEast">
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+            <div class="places text-center mx-4 my-3 pt-2">4</div>
+        </div>
+        <div class="destinationlist py-3 row" id="south">
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+            <div class="places text-center mx-4 my-3 pt-2">5</div>
+        </div>
+
+
+
+    </div>
+
+</body>
+<script>
+    // SIDE EFFECT IN  SIDENAV
+
+    function open_sidenav() {
+        document.getElementById("side_nav").style.width = "15em"; // MAKE WIDTH 15EM WHEN SIDENAV IS NEEDED 
+    }
+
+    function close_sidenav() {
+        document.getElementById("side_nav").style.width = "0"; //MAKE WIDTH 0 WHEN SIDENAV IS NOT NEEDED
+    }
+</script>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,34 @@
+{
+    "North": [{
+            "place": "Delhi",
+            "imgsrc": "Drivelink of image will be here"
+        },
+        {
+            "place": "Haryana",
+            "imgsrc": "Drivelink of image will be here"
+        },
+        {
+            "place": "Himachal Pradesh",
+            "imgsrc": "Drivelink of image will be here"
+        }
+
+    ],
+    "East": [{
+            "place": "Bihar",
+            "imgsrc": "Drivelink of image will be here"
+        },
+        {
+
+        }
+    ],
+    "West": [{
+            "place": "Himachal Pradesh",
+            "imgsrc": "Drivelink of image will be here"
+        },
+        {
+            "place": "Himachal Pradesh",
+            "imgsrc": "Drivelink of image will be here"
+        }
+    ]
+
+}

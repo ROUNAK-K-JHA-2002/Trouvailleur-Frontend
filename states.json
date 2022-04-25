@@ -1,0 +1,13 @@
+{
+    "Maharastra": [{
+        "History": "Paste the history here.",
+        "sites": ["first point", "second point", "etc"],
+        "restaurents ": ["first point", "second point", "etc"],
+        "Entertainment": "paste here",
+        "Top cities": {
+            "Mumbai": "brief line",
+            "nagpur": "brief line"
+        }
+    }],
+    "West bengal": "Same as above"
+}
