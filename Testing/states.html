@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="states.css">
+</head>
+
+<body>
+    <div class="container-fluid"></div>
+    <div class="state">
+        <div id="stateInfo" class="p-5">
+            <p id="regionName">NORTHEAST / DELHI</p>
+            <p id="MainName" class="display-1 my-3">West Bengal</p>
+            <p id="description" class="px-3 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum odio blanditiis natus corporis repudiandae earum atque totam ducimus, et hic labore, repellat pariatur, quae sequi ea impedit maiores saepe.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla laborum odio blanditiis natus corporis repudiandae earum atque totam ducimus, et hic labore, repellat pariatur, quae sequi ea impedit maiores saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                laborum odio blanditiis natus corporis repudiandae earum atque totam ducimus, et hic labore, repellat pariatur, quae sequi ea impedit maiores saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum odio blanditiis
+                natus corporis repudiandae earum atque totam ducimus, et hic labore, repellat pariatur, quae sequi ea impedit maiores saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum odio blanditiis natus corporis repudiandae
+                earum atque totam ducimus, et hic labore, repellat pariatur, quae sequi ea impedit maiores saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum odio blanditiis natus corporis repudiandae earum atque totam ducimus,
+                et hic labore, repellat pariatur, quae sequi ea impedit maiores saepe.</p>
+        </div>
+        <div id="navigation" style="width: 30%;margin-top: 10%;">
+            <div style="border-left: 2px solid red;" class="m-5 pl-4 pt-5">
+                <p>Jump to </p>
+                <ol class="h4  m-5">
+                    <li class="mt-2"><a href="">Must see experiences</a></li>
+                    <li class="mt-2"><a href="">Featured & Latest stories</a></li>
+                    <li class="mt-2"><a href="">Planning a trip</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="TopAttractions my-5" style="border: 2px solid red;">
+        <!-- SITES -->
+        <p class="text-center h2">TOP SITES</p>
+        <div class="sites" id="sites"> </div>
+
+    </div>
+    <div class="m-5 p5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nobis quisquam laudantium nemo vitae vero rerum voluptatem exercitationem. Doloribus quia repellat quos, magnam adipisci eum unde sit qui repellendus illo. Dignissimos, libero veritatis
+        dolorum at amet dolores accusamus mollitia aut ducimus, asperiores voluptatibus iusto dicta culpa? Molestias dolorem repellendus aliquid, omnis placeat at facilis, ex sint fugit iusto qui velit. Omnis sint quidem atque error alias aliquam placeat
+        illo ipsum, nemo accusamus sunt voluptatibus itaque officia consequuntur. Totam quod voluptate amet labore molestiae asperiores quidem dolores hic ipsum blanditiis? Quos! Recusandae natus vel quod? Officiis molestias distinctio, minus dignissimos
+        odio praesentium numquam, sunt facere nisi a nemo esse aliquid tempore dolore nulla ad beatae explicabo amet labore quasi veniam culpa. Consequuntur laborum sint ducimus ad ea reprehenderit rerum officiis ipsam vitae. Blanditiis magni iure, labore
+        explicabo in maxime ut placeat quod possimus aliquam eveniet saepe error laborum omnis eius quos. Corrupti consequuntur iste inventore expedita alias, id dolorem facilis enim qui aspernatur magnam accusamus laudantium ut reprehenderit beatae illum
+        ex necessitatibus doloribus officiis. Maiores, aperiam est rerum voluptatem sequi ad. Velit natus vel amet voluptas doloribus, facere odio tenetur magnam nemo quo similique aut rem neque commodi tempora architecto numquam quia aliquid ullam eos
+        repellat maiores nostrum. Possimus, expedita provident? Dolores deleniti, delectus assumenda eos voluptate illum, adipisci, at nemo nulla itaque quia facere. Maiores, facilis quam, rem sint facere neque totam cumque eveniet consequuntur adipisci
+        ut alias impedit. Voluptate. Eligendi maiores obcaecati nesciunt reprehenderit doloribus, possimus praesentium inventore doloremque atque, fugiat delectus similique corporis, neque optio voluptas consectetur nostrum dolorum quo tempora adipisci
+        libero excepturi. Officia perferendis at natus. Dolores recusandae autem tempora temporibus illum eius deserunt iure optio perferendis consectetur eos beatae reprehenderit, officiis est vitae! Dolore accusantium quod reprehenderit nam quidem minima
+        earum impedit vitae amet. Suscipit.</div>
+</body>
+<script>
+    for (var i = 1; i <= 15; i++) {
+        //Creating Site container
+        var siteContainer = document.createElement("div")
+        if (i % 2 == 0) {
+            siteContainer.className = "right"
+        } else if (i % 2 != 0) {
+            siteContainer.className = "left"
+        }
+
+        document.getElementById("sites").appendChild(siteContainer);
+
+        // creating site photo container
+        var sitePhoto = document.createElement("div")
+        sitePhoto.id = "SitePhoto"
+        siteContainer.appendChild(sitePhoto);
+
+        // creating Site Description container
+
+        var SiteDescription = document.createElement("div")
+        SiteDescription.id = "SiteDescription"
+        siteContainer.appendChild(SiteDescription);
+
+
+        // Creating site name container
+        var siteName = document.createElement("p")
+        siteName.className = "h4 text-center py-3"
+        siteName.id = "siteName"
+        siteName.innerText = "KOLKATA"
+        SiteDescription.appendChild(siteName)
+
+
+        // Creating about site  container
+        var aboutSite = document.createElement("p")
+        aboutSite.className = "h6"
+        aboutSite.id = "aboutSite"
+        aboutSite.innerText = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, amet natus corporis, voluptate blanditiis unde inventore, quas minima nemo doloremque distinctio iure eveniet enim deleniti eum? Asperiores laboriosam reiciendis iusto."
+        SiteDescription.appendChild(aboutSite)
+
+        console.log(siteContainer)
+    }
+</script>
+
+</html>

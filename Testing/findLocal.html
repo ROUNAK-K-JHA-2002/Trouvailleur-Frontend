@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="find.css">
+</head>
+
+<body>
+
+    <div class="PreferncesContainer container-fluid">
+        <p class="h1 py-3 text-center">FIND A LOCAL</p>
+        <p class=" text-center">Enter preferences. Browse profiles. Choose a Local.</p>
+
+        <form action="" class="container py-4 px-3 text-center">
+            <div class="row">
+                <div class="foodPref col-sm col-lg text-left">
+                    <p class="h5"><i class="fa fa-map-marker text-warning" aria-hidden="true"></i> Food</p>
+                    <div><input type="checkbox" value="Markets" name="checkbox" id="1"> <span> Markets</span></div>
+                    <div><input type="checkbox" value="Street Food" name="checkbox" id="1"> <span> Street Food</span></div>
+                    <div><input type="checkbox" value="Bakeries" name="checkbox" id="1"> <span> Bakeries</span></div>
+                    <div><input type="checkbox" value="Coffee" name="checkbox" id="1"> <span> Coffee</span></div>
+                    <div><input type="checkbox" value="Fine Dining" name="checkbox" id="1"> <span> Fine Dining</span></div>
+                    <div><input type="checkbox" value="Budget Eats" name="checkbox" id="1"> <span> Budget Eats</span></div>
+                </div>
+                <div class="foodPref col-sm col-lg text-left">
+                    <p class="h5"><i class="fa fa-map-marker text-warning" aria-hidden="true"></i> Culture</p>
+                    <div><input type="checkbox" value="Music" name="checkbox" id="1"> <span> Music</span></div>
+                    <div><input type="checkbox" value="Arts" name="checkbox" id="1"> <span> Arts</span></div>
+                    <div><input type="checkbox" value="Museums" name="checkbox" id="1"> <span> Museums</span></div>
+                    <div><input type="checkbox" value="History" name="checkbox" id="1"> <span> History</span></div>
+                    <div><input type="checkbox" value="Threatre" name="checkbox" id="1"> <span> Threatre</span></div>
+                </div>
+                <div class="foodPref col-sm col-lg text-left">
+                    <p class="h5"><i class="fa fa-map-marker text-warning" aria-hidden="true"></i> Activities</p>
+                    <div><input type="checkbox" value="Outdoors" name="checkbox" id="1"> <span> Outdoors</span></div>
+                    <div><input type="checkbox" value="Dancing" name="checkbox" id="1"> <span> Dancing</span></div>
+                    <div><input type="checkbox" value="Nightlife" name="checkbox" id="1"> <span> Nightlife</span></div>
+                    <div><input type="checkbox" value="Beaches" name="checkbox" id="1"> <span> Beaches</span></div>
+                    <div><input type="checkbox" value="Sports" name="checkbox" id="1"> <span> Sports</span></div>
+                    <div><input type="checkbox" value="Walking" name="checkbox" id="1"> <span> Walking</span></div>
+                    <div><input type="checkbox" value="Family" name="checkbox" id="1"> <span> Family</span></div>
+                </div>
+            </div>
+            <a href="javascript:void(0)" type="submit" class="btn btn-primary my-4" id="submit">Submit</a>
+        </form>
+    </div>
+
+    <p class="py-3 mx-5 px-5"> <span class="h6">Showing Results for : </span><span id="selectedSpecs" class="h5">All</span></p>
+    <div class="localProfileList">
+
+    </div>
+
+</body>
+<script src="find.js"></script>
+
+
+</html>

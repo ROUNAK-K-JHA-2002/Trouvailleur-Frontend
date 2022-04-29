@@ -4,7 +4,7 @@
 
 .container-fluid {
     height: 80vh;
-    background-image: url('adventure.jpeg');
+    background-image: url('./RestPhotos/adventure.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -41,6 +41,9 @@
     overflow-y: scroll;
     border: 2px solid red;
     justify-content: center;
+    background-image: url('./RestPhotos/background4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .sites::-webkit-scrollbar {
@@ -85,7 +88,7 @@
 #SitePhoto {
     height: 5cm;
     vertical-align: bottom;
-    background-image: url('download.jpeg');
+    background-image: url('./RestPhotos/SitesBG.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }

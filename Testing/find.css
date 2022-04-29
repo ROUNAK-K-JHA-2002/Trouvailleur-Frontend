@@ -1,0 +1,14 @@
+.PreferncesContainer {
+    border: 2px solid red;
+    height: max-content;
+}
+
+.foodPref {
+    border-left: 1px solid black;
+    font-size: 1.1em;
+}
+
+.localProfileList {
+    border: 2px solid red;
+    height: 20cm;
+}
